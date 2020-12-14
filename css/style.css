@@ -83,6 +83,11 @@ li a:hover{
     top: 0px;
 }
 
+/* Main */
+/* main {
+    width: auto;
+    height: auto;
+} */
 
 .banda-foto {
     height: 80vh;
@@ -98,6 +103,27 @@ li a:hover{
     border: 0;
     padding: 0;
 }
+
+/* Carrossel 
+.gallery {
+    height: 80vh;
+    padding-bottom: 10px;
+}
+
+.item {
+    height: auto;
+}
+
+.img-banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0;
+    border: 0;
+    padding: 0;
+
+} */
 
 /* Footer */
 
@@ -137,6 +163,7 @@ footer li {
 
 .titulo-footer h6 {
     font-size: 1.2em;
+   /* margin-bottom: 15px;*/
 }
 
 .lista-footer ul{
