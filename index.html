@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Os Gonzagas</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/abanda.css">
     <link rel="stylesheet" href="css/musica.css">
     <link rel="stylesheet" href="css/agenda.css">
     <link rel="stylesheet" href="css/presskit.css">
     <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/inicio.css">
-    <link rel="stylesheet" href="css/gallery.min.css">
-    <link rel="stylesheet" href="css/gallery.theme.css">
-
-    <!-- <link rel="stylesheet" href="css/gallery.min.css">
-    <link rel="stylesheet" href="css/gallery.theme.css"> -->
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
@@ -36,7 +27,6 @@
                     <li class="menu-item"><a href="#agenda">AGENDA</a></li>
                     <li class="menu-item"><a href="#presskit">PRESS KIT</a></li>
                     <li class="menu-item"><a href="#contato">CONTATO</a></li>
-                    <!-- <li class="menu-item"><a href="noticias.html">NOTÍCIAS</a></li> -->
                 </ul>
             </div>
             <div class="titulo">
@@ -46,39 +36,13 @@
     </header>
 
     <main>
-
-        <div class="gallery autoplay items-3" id="inicio">
-
-            <div id="item-1" class="control-operator"></div>
-            <div id="item-2" class="control-operator"></div>
-            <div id="item-3" class="control-operator"></div>
-
-            <figure class="item">
-                <h1><img src="imagens/principal/img-1.png" class="img-banner" alt=""></h1>
-            </figure>
-
-            <figure class="item">
-                <h1><img src="imagens/principal/img-2.png" class="img-banner" alt=""></h1>
-            </figure>
-
-            <figure class="item">
-                <h1><img src="imagens/principal/img-3.png" class="img-banner" alt=""></h1>
-            </figure>
-
-            <div class="controls">
-                <a href="#item-1" class="control-button">.</a>
-                <a href="#item-2" class="control-button">.</a>
-                <a href="#item-3" class="control-button">.</a>
-            </div>
-
+        <div id="inicio" class="banda-foto">
+            <img src="imagens/principal/img-2.png">
         </div>
-
-
-
-        
-            <div class="abanda-main" id="a-banda">
+        <div id="a-banda">
+            <div class="abanda-main">
                 <section class="abanda-titulo">
-                    <h1 class="abanda-h1">A BANDA</h1>
+                    <h1 class="abanda-h1">OS GONZAGAS</h1>
                 </section>
                 
                 <section>
@@ -90,9 +54,9 @@
                 </section>
         
         
-                <section class="integrantes">
+                <div class="integrantes">
                         <ul class="integrantes-lista">
-                            <li class="integrantes-li" id="i1">
+                            <li class="integrantes-li">
                                 <div class="integrantes-img"><a href="https://www.instagram.com/yuriggc/" target="_blank"><img class="integrantes-item" src="./imagens/abanda/yuri.webp"></a>
                                     <div class="ig-container">
                                         <img class="ig-cover" src="./imagens/abanda/ig-cover.webp">
@@ -102,7 +66,7 @@
                                 <p>voz/sanfona</p>
                             </li>
         
-                            <li class="integrantes-li" id="i2">
+                            <li class="integrantes-li">
                                 <div class="integrantes-img"><a href="https://www.instagram.com/mariakamilaj/" target="_blank"><img class="integrantes-item" src="./imagens/abanda/kami.webp"></a>
                                     <div class="ig-container">
                                         <img class="ig-cover" src="./imagens/abanda/ig-cover.webp">
@@ -111,7 +75,7 @@
                                 <span>MARIA KAMILA</span>
                                 <p>voz/triângulo</p>
                             </li>
-                            <li class="integrantes-li" id="i3">
+                            <li class="integrantes-li">
                                 <div class="integrantes-img"><a href="https://www.instagram.com/zeenetu/" target="_blank"><img class="integrantes-item" src="./imagens/abanda/zeh.webp"></a>
                                     <div class="ig-container">
                                         <img class="ig-cover" src="./imagens/abanda/ig-cover.webp">
@@ -120,7 +84,7 @@
                                 <span>ZÉ NETO</span>
                                 <p>voz/violão</p>
                             </li>
-                            <li class="integrantes-li" id="i4">
+                            <li class="integrantes-li">
                                 <div class="integrantes-img"><a href="https://www.instagram.com/caiobrunopaiva/" target="_blank"><img class="integrantes-item" src="./imagens/abanda/caio.webp"></a>
                                     <div class="ig-container">
                                         <img class="ig-cover" src="./imagens/abanda/ig-cover.webp">
@@ -129,7 +93,7 @@
                                 <span>CAIO BRUNO</span>
                                 <p>bateria</p>
                             </li>
-                            <li class="integrantes-li" id="i5">
+                            <li class="integrantes-li">
                                 <div class="integrantes-img"><a href="https://www.instagram.com/hugolps/" target="_blank"><img class="integrantes-item" src="./imagens/abanda/hugo.webp"></a>
                                     <div class="ig-container">
                                         <img class="ig-cover" src="./imagens/abanda/ig-cover.webp">
@@ -138,7 +102,7 @@
                                 <span>HUGO LEONARDO</span>
                                 <p>baixo</p>
                             </li>
-                            <li class="integrantes-li" id="i6">
+                            <li class="integrantes-li">
                                 <div class="integrantes-img"><a href="https://www.instagram.com/leandrosantosperc/" target="_blank"><img class="integrantes-item" src="./imagens/abanda/leo.webp"></a>
                                     <div class="ig-container">
                                         <img class="ig-cover" src="./imagens/abanda/ig-cover.webp">
@@ -147,7 +111,7 @@
                                 <span>LEANDRO SANTOS</span>
                                 <p>percussão</p>
                             </li>
-                            <li class="integrantes-li" id="i7">
+                            <li class="integrantes-li">
                                 <div class="integrantes-img"><a href="https://www.instagram.com/jeffersondbrito/" target="_blank"><img class="integrantes-item" src="./imagens/abanda/jeff.webp"></a>
                                     <div class="ig-container">
                                         <img class="ig-cover" src="./imagens/abanda/ig-cover.webp">
@@ -156,7 +120,7 @@
                                 <span>JEFF BRITO</span>
                                 <p>guitarra</p>
                             </li>
-                            <li class="integrantes-li" id="i8">
+                            <li class="integrantes-li">
                                 <div class="integrantes-img"><a href="https://www.instagram.com/carlitosgzs/" target="_blank"><img class="integrantes-item" src="./imagens/abanda/carlos.webp"></a>
                                     <div class="ig-container">
                                         <img class="ig-cover" src="./imagens/abanda/ig-cover.webp">
@@ -167,8 +131,9 @@
                             </li>
                             
                         </ul>
-                    </section>
+                    </div>
                 </div>
+        </div>
 
         <div id="musica" class="albuns-main">
 
@@ -344,17 +309,18 @@
             </div>
 
             <section class="carrosel">
-                <img class="agenda-foto"  src="agenda/foto-agenda1.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda2.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda3.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda4.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda5.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda6.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda7.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda8.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda9.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda10.webp" alt="">
-                <img class="agenda-foto"  src="agenda/foto-agenda11.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda1.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda2.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda3.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda4.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda5.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda6.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda7.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda8.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda9.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda10.webp" alt="">
+                <img class="agenda-foto"  src="/agenda/foto-agenda11.webp" alt="">
+
             </section>
             
             <section class="agenda-eventos">
@@ -372,6 +338,7 @@
                 </div>
 
                 <div class="agenda-botao">
+
                     <button class="botao-evento">
                         QUERO IR!
                     </button>
@@ -385,7 +352,10 @@
                 <div class="presskit-titulo">
                     <h1 class="presskit-h1">PRESS KIT</h1>
                 
-                    <div class="presskit-texto"><p>Faça download de fotos, release, músicas, marcas e vídeos d'Os Gonzagas</p></div>
+                    <div class="presskit-texto">
+                        <p>Faça download de fotos, release, músicas, marcas e vídeos d'Os Gonzagas.</p>
+                       
+                    </div>
                 </div>
 
 
@@ -401,7 +371,7 @@
         </div>
 
         <div id="contato" class="contato-main">
-            <section class="contatos">
+            <section class="contato">
 
                 <div class="contato-titulo">
                     <h1 class="contato-h1">CONTATO</h1>
@@ -473,7 +443,7 @@
         </section>
         <div class="titulo-footer">
             <h6>OUÇA E SIGA OS GONZAGAS</h6>
-            </< /div>
+            </div>
             <div class="lista-footer">
                 <ul>
                     <li> <img id="comp-k5ekfkom0imageimageimage" alt="Grey Spotify Ícone" data-type="image"

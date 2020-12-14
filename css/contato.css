@@ -4,20 +4,20 @@
 .contato-main {
     padding-top: 150px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-family: 'Raleway', sans-serif;
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 200px;
     width: auto;
     height: auto;
-    margin: auto;
 }
 
 .contato {
     width: 446px;
     display: flex;
-    flex-wrap: wrapque viag;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .contato-titulo {
@@ -25,7 +25,7 @@
     position: relative;
     font-weight: bold;
     color: #d5423e;
-    font-size: 3.3em;
+    font-size: 2.1em;
     justify-self: start;
     align-self: start;
     padding-bottom: 40px;
@@ -82,7 +82,7 @@ svg {
     position: relative;
     font-weight: bold;
     color: #d5423e;
-    font-size: 3.3em;
+    font-size: 2.1em;
     justify-self: start;
     align-self: start;
     padding-bottom: 40px;
@@ -166,67 +166,4 @@ input:focus {
 
 .contrate-botao:hover {
     background-color: #f8be00;
-}
-
-
-@media screen and (max-width: 375px) {
-
-
-    .contato-main {
-        padding-top: 8em;
-        justify-content: space-around;
-        padding-left: 0px;
-        padding-right: 0px;
-        width: 100%;
-
-    }
-
-    .contato-titulo {
-        font-size: 2.5em;
-        width: 100%;
-    }
-
-    .contato-h1 {
-        text-align: center;
-    }
-    .contatos {
-        padding-bottom: 3em;
-    }
-
-    .contrate-titulo {
-        font-size: 2.5em;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .contrate-campos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        min-width: 375px;
-    }
-
-    .contrate-formulario {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        min-width: 375px;
-    }
-
-    .contrate-campos input{
-        width: 80%;
-    }
-
-    .contrate-formulario textarea {
-        width: 320px;
-    }
-
-
-    .contrate-enviar {
-        padding: 0;
-        justify-content: center;
-
-    }
-    .contrate-botao  {
-        width: 322px;
 }

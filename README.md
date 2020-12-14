@@ -50,4 +50,4 @@ Site da banda Os Gonzagas utilizado para compartilhar músicas, vídeos, materia
 
 * Hugo Leonardo Penha de Sousa - hugo.sousa@academico.ifpb.edu.br
 * João Jorge Evangelista Fernandes - joao.jorge@academico.ifpb.edu.br
-* Matheus David Araujo Santos - hugo.sousa@academico.ifpb.edu.br*
+* Matheus David Araujo Santos - hugo.sousa@academico.ifpb.edu.br

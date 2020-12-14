@@ -9,7 +9,8 @@
     height: auto;
     justify-items: center;
     margin: auto;
-    max-width: 1100px;
+    padding-bottom: 20px;
+    width: 100%;
 }
 
 .agenda-titulo{
@@ -17,13 +18,12 @@
     color: #d5423e;
     display: inline-block;
     font-family: 'raleway-semibold','raleway',sans-serif;
-    font-size: 3.3em;
+    font-size: 1.5em;
     font-weight: bold;
     justify-self: start;
-    margin-top: 100px;
-    padding:  1.3em;
+    padding: 1.3em;
+    padding-left: 200px;
     position: relative;
-    padding-left: 0;
 }
 
 .carrosel {
@@ -91,20 +91,19 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-left: 200px;
     padding: 50px;
-    width: 848px;
+    width: 846px;
 }
 
 .agenda-data {
     align-items: center;
-    background-color: transparent;
     cursor: pointer;
     display: flex;
     height: 80px;
     justify-content: space-between;
     position: relative;
     width: 108px;
-    z-index: 0;
 }
 
 .agenda-data:before {
@@ -115,11 +114,9 @@
     position: absolute;
     transition: all 1s ease;
     width: 0px;
-    z-index: -1;
 }
 
 .agenda-data:hover::before {
-    border-bottom: 3px solid #d5423e;
     width: 100%;
 }
 
@@ -204,87 +201,4 @@
 .botao-evento:hover {
     border-radius: 5px;
     color: white;
-}
-
-@media (max-width: 375px) {
-
-    .agenda {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .agenda-titulo {
-        width: 100%;
-        padding-bottom: .8em;
-        margin-top: 0;
-        padding-right: 0;
-    }
-    .agenda-botao {
-        display: block;
-    }
-
-    .agenda-main {
-        max-width: 100%;        
-    }
-
-    .agenda-h1 {
-        text-align: center;
-
-        font-size: 2.5rem;
-    }
-
-    .agenda-eventos {
-        flex-direction: column;
-        padding: 0;
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    .carrosel {
-        display: none;
-    }
-
-    .agenda-local {
-        flex-direction: column;
-    }
-
-    .agenda-data {
-        margin-bottom: 3em;
-    }
-
-    .agenda-dia {
-        font-size: 4em;
-        margin-right: .1em;
-    }
-
-    .agenda-semanames {
-        font-size: 1.3em;
-    }
-
-    .agenda-local {
-        margin-bottom: 2em;
-        flex-direction: column;
-        width: 80%;
-    }
-
-    .agenda-evento {
-        font-size: 1.3em;
-        margin-bottom: 1em;
-    }
-
-    .agenda-cidade:hover {
-        
-        /* font-size: 1.3em; */
-        font-weight: bolder;
-    }
-    
-    .agenda-evento:hover {
-        font-size: 1.3em;
-        font-weight: bolder;
-        transition: all 1s ease;
-        transform: translateX(0px);
-
-    }
 }
