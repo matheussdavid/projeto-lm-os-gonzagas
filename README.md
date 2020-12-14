@@ -5,6 +5,8 @@
 
 Site da banda Os Gonzagas utilizado para compartilhar músicas, vídeos, material de divulgação, disponibilizar a agenda de show e permitir o contato de possíveis contratantes através de um formulário.
 
+#### Link para o site: https://matheussdavid.github.io/projeto-lm-os-gonzagas/
+
 ### Descrição de funcionalidades
 
 1. Menu de navegação com posição fixa e links de navegação interna (retirado na versão mobile)
