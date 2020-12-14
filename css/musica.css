@@ -28,7 +28,6 @@
 }
 
 .albuns {
-    /* display: flex; */
     flex-direction: column;
     width: auto;
     min-width: 1100px;
@@ -52,9 +51,9 @@
     justify-content: space-between;
 }
 
-/* .albuns-itens:first-child{
+.albuns-itens:first-child{
     margin-left: 0;
-} */
+} 
 
 .redes-lista {
     display: flex;
@@ -87,8 +86,8 @@
 .musicas {
     margin: auto;
     width: auto;
-    /* padding: auto; */
     max-width: 1100px;
+    margin-left: 0;;
 }
 
 .musicas-container {
@@ -96,7 +95,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -163,6 +162,10 @@
     .albuns {
         min-width: 375px;
     }
+
+    .albuns-itens:first-child{
+        margin-left: auto;
+    } 
 
     .musicas {
         min-width: 375px;
